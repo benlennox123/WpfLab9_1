@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="WindowStyle">
+        <Setter Property="Control.Background" Value="#FF3C3A3A"/>
+        <Setter Property="Control.BorderBrush" Value="#FF3C3A3A"/>
+        <Setter Property="Control.Foreground" Value="White"/>
+    </Style>
+    <Style x:Key="TextBoxStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="Control.BorderBrush" Value="White"/>
+    </Style>
+</ResourceDictionary>
